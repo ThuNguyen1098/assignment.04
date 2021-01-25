@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: FS Playlist Script;
+  src: url(FS\ Playlist\ Script.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(Lato-Bold_2.ttf);
+}
+body {
+  margin: 0px;
+  background-color: #bde6ff;
+}
+body h1{
+  font-family: FS Playlist Script;
+  font-size: 120px;
+  text-align: center;
+  color: #005b95;
+  text-shadow: 5px 5px #fcc43b;
+}
+.text {
+  background-color: #ea9896;
+  margin: 0px 50px;
+}
+.blue {
+  margin: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.blue div {
+  position: relative;
+  width: 15%;
+  background-color: #ccc;
+  height: 400px;
+}
+.blue p {
+  font-family: FS Playlist Script;
+  text-align: center;
+}
+.blue #blue1 {
+  background-color: rgba(0, 91, 149, 1);
+}
+.blue #blue2 {
+  background-color: rgba(39, 130, 184, 1);
+}
+.blue #blue3 {
+  background-color: rgba(79, 165, 218, 1);
+}
+.blue #blue4 {
+  background-color: rgba(134, 203, 249, 1);
+}
+.blue #blue5 {
+  background-color: rgba(217, 240, 255, 1);
+}
